@@ -9,3 +9,96 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+header {
+  background: linear-gradient(#1c5380, #06365f);
+  height: 300px;
+  width: auto;
+  z-index: 0;
+}
+
+h2 {
+	color: #06365f;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-left: 80px;
+	position: relative;
+	top: -250px;
+	z-index: 1;
+}
+
+.right-side {
+	display: inline-block;
+	text-align: left;
+}
+
+.brand {
+}
+
+.log-in {
+	display: inline-block;
+ 	background: linear-gradient(#1c5380, #06365f);
+ 	color: white;
+ 	font-family: "Helvetica Neue";
+ 	font-weight: bold;
+ 	box-shadow: 0 0 5px 2px #06365f;
+ 	border: none;
+ 	position: relative;
+ 	bottom: 25px;
+ 	right: -100px;
+ 	padding: 8px;
+ 	text-align: center;
+}
+
+.log-txt {
+	display: inline-block;
+	position: relative;
+	top: -5px;
+	padding-left: 7px;
+}
+
+.phones {
+	margin-right: 50px;
+}
+
+.description {
+	padding: 30px;
+	background-image: url("/Users/scottrosehart/source/unit_1/css-positioning/img/frame.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 450px;
+	line-height: 160%;
+}
+
+.app-dl {
+	position: relative;
+	left: 0px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 0px;
+	padding: 50px;
+	font-size: 14px;
+}
+
+a {
+	color: #06365f;
+	font-style: "Helvetica Neue";
+	text-decoration: none;
+	margin: 5px;
+}
+
+a:hover {
+	border-bottom: 2px solid #06365f;
+}
+
+.light {
+	margin-left: 25px;
+	color: #999;
+	font-weight: bold;
+}
